@@ -203,16 +203,15 @@ width: 30px;
 
 
 .portfolio-cosa {
-  right: 0;
-  margin: 0 0 15px;
+
   border: 1px solid transparent;
   background-color: #fff;
   box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.1);
   font-size: 15px;
   font-weight: 300;
-  padding: 50px 33px 46px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  padding: 15px;
  }
 
 
@@ -475,6 +474,7 @@ width: 30px;
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } }
 
+
 .team-member {
   margin-bottom: 50px;
   text-align: center; }
@@ -536,6 +536,10 @@ width: 30px;
     padding: 100px 0;
 }
 
+.img-sevice{
+  height: 200px;
+}
+
     .foto  {
       background-image: url("../img/about/about.jpg");
       margin-left: :180px;
@@ -560,8 +564,7 @@ width: 30px;
     }
 
 .cube{
-  float: none;
-    margin: 0 auto;
+
 }
 
 
@@ -653,7 +656,7 @@ ul.social-buttons {
   font-weight: 700;
   color: white;
   border-color: #FFC814;
-  background-color: #FFC814;
+  background-color: #000000;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; }
   .btn-primary.focus, .btn-primary:focus {
