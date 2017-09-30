@@ -184,8 +184,9 @@ header.masthead {
      }
 
 .service-heading {
-  margin: 15px 0;
+  padding: :30px;
   text-transform: none;
+  margin: 15px;
 }
 
 .flat{
@@ -201,6 +202,10 @@ margin: 10px;
 width: 30px;
 }
 
+.conte{
+  padding: 20;
+
+}
 
 .portfolio-cosa {
 
@@ -211,8 +216,11 @@ width: 30px;
   font-weight: 300;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  padding: 15px;
+  padding: 30px;
+  height: 370px;
  }
+
+
 
 
 #portfolio .portfolio-item {
@@ -537,7 +545,7 @@ width: 30px;
 }
 
 .img-sevice{
-  height: 200px;
+  height: 120px;
 }
 
     .foto  {
@@ -557,6 +565,7 @@ width: 30px;
 
     section#sobremi{
     background-color: #222222;
+
     }
 
     section#services{
@@ -588,27 +597,27 @@ section#contact {
       height: 236px; }
   section#contact .form-control:focus {
     border-color: #FFC814;
-    box-shadow: none; }
+  }
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
-    color: #eeeeee;
+    color: eeeeee;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   section#contact :-moz-placeholder {
     font-weight: 700;
-    color: #eeeeee;
+    color: #b5b0b0;
     /* Firefox 18- */
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   section#contact ::-moz-placeholder {
     font-weight: 700;
-    color: #eeeeee;
+    color: #eb5b0b0eeeee;
     /* Firefox 19+ */
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   section#contact :-ms-input-placeholder {
     font-weight: 700;
-    color: #eeeeee;
+    color: #b5b0b0;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
   section#contact .text-danger {
