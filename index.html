@@ -114,7 +114,9 @@
                 </div>
               </div>
               <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
+
+                <div class="conte col-md-4 col-sm-6">
+                <div class="col-md-12  portfolio-item">
                   <a class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
                     <div class="portfolio-hover">
                       <div class="portfolio-hover-content">
@@ -128,7 +130,12 @@
                     <p class="text-muted">App Mobile</p>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                  </div>
+
+
+
+                  <div class="conte col-md-4 col-sm-6">
+                  <div class="col-md-12  portfolio-item">
                   <a class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
                     <div class="portfolio-hover">
                       <div class="portfolio-hover-content">
@@ -142,7 +149,12 @@
                     <p class="text-muted">App Mobile</p>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                </div>
+
+
+
+                <div class="conte col-md-4 col-sm-6">
+                <div class="col-md-12  portfolio-item">
                   <a class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
                     <div class="portfolio-hover">
                       <div class="portfolio-hover-content">
@@ -156,7 +168,11 @@
                     <p class="text-muted">Interactive Installation</p>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+                  </div>
+
+
+                  <div class="conte col-md-4 col-sm-6">
+                  <div class="col-md-12  portfolio-item">
                   <a class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
                     <div class="portfolio-hover">
                       <div class="portfolio-hover-content">
@@ -170,7 +186,11 @@
                     <p class="text-muted">Development</p>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+               </div>
+
+
+               <div class="conte col-md-4 col-sm-6">
+               <div class="col-md-12  portfolio-item">
                   <a class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
                     <div class="portfolio-hover">
                       <div class="portfolio-hover-content">
@@ -184,7 +204,10 @@
                     <p class="text-muted">Interactive Installation</p>
                   </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
+               </div>
+
+                <div class="conte col-md-4 col-sm-6">
+                <div class="col-md-12  portfolio-item">
                   <a class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
                     <div class="portfolio-hover">
                       <div class="portfolio-hover-content">
@@ -218,16 +241,16 @@
 
 
 
-         <div class="conte col-md-4 col-sm-6">
+         <div class="conte col-md-4 col-sm-12">
+
           <div class="col-md-12 portfolio-cosa">
               <img class="img-sevice mx-auto" src="img/services/apps.png" alt="">
-
-            <h4 class="service-heading">Mobile development</h4>
-            <p class="text-muted">Development of  Android aplications with the integration of backend services like Firebase, MongoDB, sql and use of libraries for APIRest services. (Retrofit2, JavaRx).</p>
+            <h4 class="service-heading">Mobile  development</h4>
+            <p class="text-muted">Development of  Android aplications with the integration of backend services like Firebase, MongoDB, sql and use of libraries for APIRest services.</p>
           </div>
           </div>
 
-               <div class="conte col-md-4 col-sm-6">
+               <div class="conte col-md-4 col-sm-12">
           <div class="col-md-12 portfolio-cosa">
             <img class="img-sevice mx-auto" src="img/services/inte.png" alt="">
 
@@ -236,7 +259,7 @@
           </div>
             </div>
 
-               <div class="conte col-md-4 col-sm-6">
+               <div class="conte col-md-4 col-sm-12">
             <div class="col-md-12  portfolio-cosa">
 
               <img class="img-sevice mx-auto" src="img/services/web.png" alt="">
@@ -262,7 +285,18 @@
         </div>
         <div class="row">
           <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate>
+
+
+            <form action="https://formspree.io/ricardo.martinez10@hotmail.com"
+                  method="POST">
+                <input type="text" name="name">
+                <input type="email" name="_replyto">
+                <input type="submit" value="Send">
+            </form>
+
+
+
+            <form id="contactForm"  action="https://formspree.io/ricardo.martinez10@hotmail.com" name="sentMessage" novalidate>
               <div class="row">
                 <div class="col-md-6">
                   <div class="form-group">
@@ -270,7 +304,7 @@
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
+                    <input class="form-control" id="email" type="email" name="email" placeholder="Your Email *" required data-validation-required-message="Please enter your email address.">
                     <p class="help-block text-danger"></p>
                   </div>
                   <div class="form-group">
@@ -280,7 +314,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
+                    <textarea class="form-control" id="message" name="message" placeholder="Your Message *" required data-validation-required-message="Please enter a message."></textarea>
                     <p class="help-block text-danger"></p>
                   </div>
                 </div>
@@ -391,6 +425,11 @@
                   <h2>Borondo</h2>
                   <p class="item-intro text-muted">App Mobile.</p>
                   <img class="img-fluid d-block mx-auto" src="img/portfolio/borondo.png" alt="">
+
+                  <div class="videoWrapper">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/06SU7zvMj0E" frameborder="0" allowfullscreen></iframe>                  </div>
+
+
 <p>Development and design of culture mobile app for the city of Cali, Colombia, in order to gather the culture activities of the city.</p>                  <ul class="list-inline">
                     <li>Date: January 2016</li>
                     <li>Client: Icesi University</li>
@@ -425,7 +464,11 @@
                   <h2>Sensturo</h2>
                   <p class="item-intro text-muted">The future through the senses (Interactive Installation)</p>
                   <img class="img-fluid d-block mx-auto" src="" alt="">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/7DcGzVVv5qs?rel=0" frameborder="0" allowfullscreen></iframe>
+
+                  <div class="videoWrapper">
+                      <iframe width="560" height="315"  src="https://www.youtube.com/embed/7DcGzVVv5qs?rel=0" frameborder="0" allowfullscreen></iframe>
+                  </div>
+
                   <p>Sensturo is an interactive work that aims to create an immersive space in which the spectators explore individually or collectively a possible perception of the future.
 Through body actions of one or more people, it is possible to live experiences composed of sounds, lights and textures that locate them perceptually in a future space.</p>                  <ul class="list-inline">
                     <li>Date: August 2016</li>
@@ -494,8 +537,13 @@ Through body actions of one or more people, it is possible to live experiences c
                   <!-- Project Details Go Here -->
                   <h2>Move On</h2>
                   <p class="item-intro text-muted"> Interactive rehab system focus in knee injury recovery </p>
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/rz8B21vJu6c" rel=0&hl=en&cc_lang_pref=en&cc_load_policy=1”  frameborder="0" allowfullscreen></iframe>
+                  <div class="videoWrapper">
+
+
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/rz8B21vJu6c" rel=0&hl=en&cc_lang_pref=en&cc_load_policy=1”  frameborder="0" allowfullscreen></iframe>
+                </div>
 <p>Move on is an interactive rehab system focus in knee injury recovery through dynamic routines and virtual tool </p>
+
 <p>Move on is a portable system complementary to rehabilitation center to continue the recovery at home. It counts with dynamic routines through  games and interactive ambients that fulfill all knee recovery  phase. It provides detail information of every exercise and it correct way of implementation. It offers immediate feedback to ensure the correct way of the exercise.</p>
 <p>Move on allows to perform all kind of routines in order to obtain excellent results in knee recovery and thus to increment the treatment adherence of patients.</p>
 
