@@ -55,9 +55,6 @@ section {
 
 @media (min-width: 992px) {
 
-  .portfolio-cosa: first-of-type{
-    background-color: red ;
-}
 
 
   section {
@@ -124,6 +121,12 @@ body {
 
 
 @media (min-width: 992px) {
+
+
+.conte-footer{
+  padding: 30px;
+
+}
 
 h1{
   font-size: 85px;
@@ -199,6 +202,15 @@ header.masthead {
 
 
 @media (min-width: 768px) {
+
+
+  .conte-footer{
+    padding:12px;
+   margin-left: -30px;
+   margin-right:30px;
+  }
+
+
   header.masthead .intro-text {
     padding-top: 300px;
     padding-bottom: 200px; }
@@ -239,50 +251,54 @@ width: 30px;
 .conte{
   padding: 20;
 }
-  #portfolio .portfolio-item .portfolio-link {
-    position: relative;
-    display: block;
-    max-width: 400px;
-    margin: 0 auto;
-    cursor: pointer; }
-    #portfolio .portfolio-item .portfolio-link .portfolio-hover {
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      -webkit-transition: all ease 0.5s;
-      -moz-transition: all ease 0.5s;
-      transition: all ease 0.5s;
-      opacity: 0;
-      background: rgba(254, 209, 54, 0.9); }
-      #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
-        opacity: 1; }
-      #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-        font-size: 20px;
-        position: absolute;
-        top: 50%;
-        width: 100%;
-        height: 20px;
-        margin-top: -12px;
-        text-align: center;
-        color: white; }
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
-          margin-top: -12px; }
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-        #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
-          margin: 0; }
-  #portfolio .portfolio-item .portfolio-caption {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 25px;
-    text-align: center;
-    background-color: white; }
-    #portfolio .portfolio-item .portfolio-caption h4 {
-      margin: 0;
-      text-transform: none; }
-    #portfolio .portfolio-item .portfolio-caption p {
-      font-size: 16px;
-      margin: 0;
-      font-family: 'Poppins', sans-serif;}
+
+
+#portfolio .portfolio-item .portfolio-link {
+   position: relative;
+   display: block;
+   max-width: 400px;
+   margin: 0 auto;
+   cursor: pointer; }
+   #portfolio .portfolio-item .portfolio-link .portfolio-hover {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     -webkit-transition: all ease 0.5s;
+     -moz-transition: all ease 0.5s;
+     transition: all ease 0.5s;
+     opacity: 0;
+     background: rgba(254, 209, 54, 0.9); }
+     #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+       opacity: 1; }
+       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+       font-size: 20px;
+       position: absolute;
+       top: 50%;
+       width: 100%;
+       height: 20px;
+       margin-top: -12px;
+       text-align: center;
+       color: white; }
+       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+         margin-top: -12px; }
+       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+         margin: 0; }
+ #portfolio .portfolio-item .portfolio-caption {
+   max-width: 400px;
+   margin: 0 auto;
+   padding: 25px;
+   text-align: center;
+   background-color: white; }
+   #portfolio .portfolio-item .portfolio-caption h4 {
+     margin: 0;
+     text-transform: none; }
+   #portfolio .portfolio-item .portfolio-caption p {
+     font-size: 16px;
+     margin: 0;
+     font-family: 'Poppins', sans-serif;}
+
+
 
 #portfolio * {
   z-index: 2; }
@@ -320,6 +336,8 @@ width: 30px;
     margin-bottom: 30px; }
   .portfolio-modal .modal-content button {
     cursor: pointer; }
+
+
 
 .portfolio-modal .close-modal {
   position: absolute;
@@ -438,6 +456,7 @@ width: 30px;
 
 
 
+
     @media (min-width: 767px) {
       #portfolio .portfolio-item {
         margin: 0 0 30px;
@@ -446,6 +465,17 @@ width: 30px;
       }
 
 @media (min-width: 768px) {
+
+
+
+.footer-icon>p{
+margin-right:120px !important;
+}
+.footer-icon{
+  margin-bottom: -10px;
+}
+
+
   .timeline:before {
     left: 50%; }
   .timeline > li {
@@ -596,12 +626,13 @@ width: 30px;
 
 
 section#contact {
-  background-color: #222222;
-  background-image: url("../img/map-image.png");
+  background-color: #F7F7F7;
+
   background-repeat: no-repeat;
   background-position: center; }
   section#contact .section-heading {
-    color: white; }
+    color: #212529
+    ; }
   section#contact .form-group {
     margin-bottom: 25px; }
     section#contact .form-group input,
@@ -623,18 +654,18 @@ section#contact {
     font-weight: 700;
     color: #b5b0b0;
     /* Firefox 18- */
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'Poppins', sans-serif;
     text-transform: uppercase; }
   section#contact ::-moz-placeholder {
     font-weight: 700;
     color: #eb5b0b0eeeee;
     /* Firefox 19+ */
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'Poppins', sans-serif;
     text-transform: uppercase; }
   section#contact :-ms-input-placeholder {
     font-weight: 700;
     color: #b5b0b0;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-family: 'Poppins', sans-serif;
     text-transform: uppercase; }
   section#contact .text-danger {
     color: #e74c3c; }
@@ -646,14 +677,14 @@ footer {
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'Poppins', sans-serif;
     text-transform: uppercase; }
   footer ul.quicklinks {
     font-size: 90%;
     line-height: 40px;
     margin-bottom: 0;
     text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-family: 'Poppins', sans-serif;
     text-transform: uppercase; }
 
 ul.social-buttons {
@@ -682,7 +713,7 @@ ul.social-buttons {
   color: white;
   border-color: #FFC814;
   background-color: #000000;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'Poppins', sans-serif;
   text-transform: uppercase; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
@@ -725,7 +756,7 @@ ul.social-buttons {
   color: white;
   border-color: #fed136;
   background-color: #FFC814;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: 'Poppins', sans-serif;
   text-transform: uppercase; }
   .btn-xl.focus, .btn-xl:focus {
     color: white;
@@ -770,18 +801,6 @@ ul.social-buttons {
 
 
 
-          @media (min-width:576px) {
-              #portfolio .portfolio-item{
-              margin-bottom: 30px;
-
-             }
-             .portfolio-item{
-               margin-bottom: 30px;
-             }
-
-
-          }
-
           #portfolio .portfolio-item {
             border: 1px solid transparent;
             background-color: #fff;
@@ -809,3 +828,111 @@ ul.social-buttons {
              padding: 30px;
                margin-bottom: 30px;
             }
+
+
+
+            .footer-icon{
+              border: 1px solid transparent;
+              background-color: #fff;
+              box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.1);
+              -webkit-transition: 0.3s;
+              transition: 0.3s;
+              padding-top: 8px;
+              padding-left: 11px;
+              padding-bottom:2px;
+              margin-left: 10px;
+              margin-bottom: 15px;
+            }
+            .footer-icon>p{
+             margin-left:15px;
+             font-size:70%;
+             padding-top: 8px;
+            }
+
+
+
+
+            .fa-phone{
+              color: #FFC814;
+            }
+            .fa-envelope-open{
+              color: #FFC814;
+            }
+            .icon-phone{
+
+            }
+            @media (min-width:576px) {
+
+              .footer-icon>p{
+               font-size:120%;
+               margin-bottom: 10px;
+              }
+
+              .footer-icon{
+
+              }
+
+             .conte-footer{
+              margin-bottom: 30px;
+              padding: auto;
+             }
+
+                #portfolio .portfolio-item{
+                margin-bottom: 30px;
+               }
+
+
+               .portfolio-item{
+                 margin-bottom: 30px;
+               }
+
+
+            }
+
+              @media (min-width:767px) {
+
+                .dato{
+                  margin-top: -37px;
+                  padding-left:25px;
+
+                 }
+
+                .conte-footer{
+                  padding:10px;
+                }
+
+                .footer-icon>p{
+                  font-size:100%;
+                }
+
+
+              }
+
+              @media (min-width: 992px) {
+
+
+                .conte-footer{
+                  padding-left:30px;
+                }
+
+                .footer-icon{
+                  padding-top:10px;
+
+                }
+
+                .footer-icon>p{
+                  font-size:120%;
+                  padding:0px;
+                }
+
+                .dato{
+                    margin-top:-33px;
+                    padding-left:30px !important;
+
+                }
+
+              }
+
+              @media (min-width:1200px) {
+
+              }
