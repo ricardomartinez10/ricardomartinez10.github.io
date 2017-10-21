@@ -1,3 +1,13 @@
+
+jQuery(window).load(function () {
+  alert('page is loaded');
+
+  setTimeout(function () {
+      alert('page is loaded and 1 minute has passed');
+  }, 60000);
+
+});
+
 (function($) {
   "use strict"; // Start of use strict
 
@@ -14,6 +24,9 @@
       }
     }
   });
+
+
+
 
   // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {

@@ -26,9 +26,25 @@
     <!-- Custom styles for this template -->
     <link href="css/agency.css" rel="stylesheet">
 
+
+    <script type="text/javascript">
+
+</script>
+
   </head>
 
   <body id="page-top">
+
+
+
+<div class="holi">
+
+  <div class="loader">
+  </div>
+
+</div>
+
+<div class="pagcompleta">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -61,6 +77,13 @@
 
     <!-- Header -->
     <header class="masthead">
+
+
+
+
+
+
+
           <div class="layer">
       <div class="container">
 
@@ -72,8 +95,10 @@
                 <div class="intro-lead-in">Interactive design</div>
           <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
         </div>
-           </div>
+
       </div>
+      </div>
+
     </header>
 
       <!-- about me -->
@@ -351,6 +376,8 @@
       </div>
     </footer>
 
+
+
     <!-- Portfolio Modals -->
 
     <!-- Modal 1 -->
@@ -599,6 +626,23 @@ Through body actions of one or more people, it is possible to live experiences c
 
     <!-- Custom scripts for this template -->
     <script src="js/agency.min.js"></script>
+        <script src="js/agency.js"></script>
+
+        <script type="text/javascript">
+
+
+        window.onload = function() {
+    //dom not only ready, but everything is loaded
+       $( ".holi" ).remove();
+       $( ".loader" ).remove();
+       $(".pagcompleta").css("visibility","visible")
+
+       };
+</script>
+
+
+</div>  <!-- cierra pag comleta-->
+
 
   </body>
 
