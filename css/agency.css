@@ -16,7 +16,7 @@ p {
 }
 
 .pagcompleta{
-  visibility: hidden;
+  display: none;
 }
 
 
