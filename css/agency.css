@@ -594,9 +594,15 @@ margin-right:120px !important;
     padding: 100px 0;
 }
 
+
+
     .foto  {
+
       background-image: url("../img/about/about.jpg");
-      margin-left: :180px;
+      height: 300px;
+      margin: 30px;
+        margin-left: :190px;
+        margin-bottom: 30px;
       background-repeat: no-repeat;
       background-attachment: scroll;
       background-position: center center;
@@ -604,6 +610,7 @@ margin-right:120px !important;
       -moz-background-size: cover;
       -o-background-size: cover;
       background-size: cover;
+
 
      }
 
@@ -862,7 +869,15 @@ ul.social-buttons {
             .icon-phone{
 
             }
+
+            .copyright{
+              margin: auto;
+            }
             @media (min-width:576px) {
+
+              .copyright{
+                margin: auto;
+              }
 
               .footer-icon>p{
                font-size:120%;
@@ -891,6 +906,15 @@ ul.social-buttons {
             }
 
               @media (min-width:767px) {
+
+
+
+
+                .foto{
+                  height: 100%;
+                  margin: 0px;
+                }
+
 
                 .dato{
                   margin-top: -37px;

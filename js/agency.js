@@ -26,6 +26,10 @@
     offset: 54
   });
 
+
+  $('botonr').attr({target: '_blank',
+                    href  : 'https://firebasestorage.googleapis.com/v0/b/borondo-97c2a.appspot.com/o/resume.pdf?alt=media&token=c97aa1fa-a107-4fa2-9ced-4e7d081525a2'});
+
   // Collapse the navbar when page is scrolled
   $(window).scroll(function() {
     if ($("#mainNav").offset().top > 100) {
