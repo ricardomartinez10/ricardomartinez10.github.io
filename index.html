@@ -39,7 +39,12 @@
 
 <div class="holi">
 
-  <div class="loader">
+  <div class="spinner">
+    <div class="rect1"></div>
+<div class="rect2"></div>
+<div class="rect3"></div>
+<div class="rect4"></div>
+<div class="rect5"></div>
   </div>
 
 </div>
@@ -93,7 +98,7 @@
             <h1>Ricardo Martínez</h1>
           </div>
                 <div class="intro-lead-in">Interactive design</div>
-          <a class="btn btn-xl js-scroll-trigger" href="#services">Tell Me More</a>
+
         </div>
 
       </div>
@@ -340,10 +345,10 @@
         <div class="row">
 
 
-          <div class="col-md-4 row">
-            <span class="list-inline copyright ">Copyright &copy; RICARDO MARTÍNEZ 2017</span>
+          <div class="col-md-4  col-sm-12 ">
+            <p class="list-inline copyright">Copyright &copy; RICARDO MARTÍNEZ 2017</p>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-12">
             <ul class="list-inline social-buttons">
               <li class="list-inline-item">
                 <a href="https://github.com/ricardomartinez10/">
@@ -362,7 +367,7 @@
               </li>
             </ul>
           </div>
-          <div class="col-md-4">
+          <div class="col-md-4 col-sm-12">
             <ul class="list-inline quicklinks">
               <li class="list-inline-item">
                 <a href="#">Privacy Policy</a>
@@ -633,9 +638,10 @@ Through body actions of one or more people, it is possible to live experiences c
 
         window.onload = function() {
     //dom not only ready, but everything is loaded
-       $( ".holi" ).remove();
+    //   $( ".holi" ).remove();
        $( ".loader" ).remove();
-       $(".pagcompleta").css("display","block")
+      $( ".holi" ).fadeTo( 900, 0);
+      $(".pagcompleta").css("display","block")
 
        };
 </script>
